@@ -3,7 +3,7 @@
     src: url('https://github.com/Aritra-dey/globalissues.github.io/tree/main/font/segoeui.ttf') format('truetype');
 }
 .content h2{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Open Sans', Tahoma, Geneva, Verdana, serif;
     margin: 2vh 2vw 1vh 2vw;
 }
 .content .docs .doc-button{

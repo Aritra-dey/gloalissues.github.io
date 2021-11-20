@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body i{
+    color: white;
+}
+
+.header{
+    background-color: #d9d9d9;
+    height: 3vh;
+    padding: 1vh 2vw .2vh 2vw;
+    color: #707070;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+}
+.header i{
+    color: #b37d89;
+    text-align:end;
+    margin-left: 70vw;
+    cursor: pointer;
+}
+
+.heading{
+    color: white;
+    background-color: navy;
+    padding: 3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100vw;
+    display: inline-flex;
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+
+.heading .navbar{
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    margin-left: 10vw;
+    margin-top: 2vh;
+    font-size: 3vh;
+    font-family: Corbel;
+}
+
+.heading .navbar a {
+    margin: 0 5vw 0 5vw;
+    color: white;
+    text-decoration: none;
+}
+.heading .navbar a:hover{
+    font-weight: bolder;
+    font-size: 3.2vh;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+.nation{
+    padding: 5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #dbdbdb;
+}
+
+.nation .categories button{
+    background-color:transparent;
+    outline: none ;
+    border: rgb(78, 76, 76) 1px solid ;
+    padding: 2vh;
+    margin: 0 1vw 0 1vw;
+    font-size: 2vh;
+    font-family: Corbel;
+    cursor: pointer;
+}
+
+.nation .categories p{
+    font-weight: 900;
+    margin: 1vh 0 1vh 0;
+}
+
+.nation .categories button:hover{
+    background-color: grey;
+    color: white;
+}
+
+
+
+.your-issue{
+    background-color: navy;
+    display: inline-flex;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5vh 0 5vh 0;
+    padding: 2vh 6vh;
+    width: 100vw;
+}
+.your-issue button{
+    margin: 0 7vw 0 10vw;
+    padding: 0 2vw 0 2vw;
+    background-color: white;
+    border: none;
+    outline: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: large;
+    cursor: pointer;
+}
+.your-issue button:hover{
+    background-color: gray;
+    border: black .5px solid;
+    color: white;
+}
+
+
+
+.highlights h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2vh 3vw 2vh 5vw;
+}
+.highlights .buttons{
+    margin: 0 0 0 5vw;
+}
+
+.highlights button{
+    background-color:transparent;
+    outline: none ;
+    border: rgb(78, 76, 76) 1px solid ;
+    padding: 2vh;
+    margin: 0 1vw 0 1vw;
+    font-size: 2vh;
+    font-family: Corbel;
+    cursor: pointer;
+}
+.highlights button:hover{
+    background-color: grey;
+    color: white;
+}
+
+
+.time-nd-date{
+    margin: 2vh 0 0 0;
+    height: 7vh;
+    background-color: navy;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    padding: 2vh 3vw 2vh 3vw;
+    align-items: center;
+    justify-content: center;
+}
+.time-nd-date h3{
+    margin-right: 2vw;
+}
+.time-nd-date span{
+    font-size: 2.4vh;
+    margin: 0 1vw 0 1vw;
+    background-color: whitesmoke;
+    color: black;
+    padding: 1vh 1vw;
+    border-radius: 15em;
+}
+.time-nd-date .container{
+    height: 5vh;
+}
+
+
+
+.footer{
+    background-color: navy;
+    margin: 5vh 0 2vh 0 ;
+    padding: 2vh 2vh;
+    display: inline-flex;
+    width: 100vw;
+}
+.footer .left svg{
+    color: white;
+}
+.footer h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1vh 2vw 2vh 2vw;
+}
+.footer p{
+    color: white;
+    margin: 1vh 4vw 1vh 2vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer a{
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+
+.footer .center{
+    margin: 1vh 2vw 2vh 4vw;
+}
+.footer .center h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 3.2vh;
+}
+.footer .center .links a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 2vh 1vw 2vh 1vw;
+}
+.footer .center .links a:hover{
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.footer .right{
+    margin: 1vh 2vw 2vh 4vw;
+}
+.footer .right h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3vh;
+}
+.footer .right .links a{
+    text-decoration: none;
+    margin: 1vh 1vw 2vh 1vw;
+    cursor: pointer;
+}
+.footer .right .links .opinion{
+    cursor: not-allowed;
+}
+.footer .right .links a:hover{
+    font-weight: 700;
+}
+
+
+
+.copyright{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: navy;
+    width: 100vw;
+    height: 8vh;
+    margin: 0 0 2vh 0;
+}
+.copyright p{
+    margin: 2.2vh 40vw 2.2vh 40vw ;
+}
+
+
+
+
+.content a button{
+    margin: 1vh 1vw 1vh 1vw;
+}
+
+.content.add a button{
+    background-color:transparent;
+    outline: none ;
+    border: rgb(78, 76, 76) 1px solid ;
+    padding: 2vh;
+    margin: 0 1vw 0 1vw;
+    font-size: 2vh;
+    font-family: Corbel;
+    cursor: pointer;
+}
+.content .add a button i{
+    color: black;
+    padding: 0vh .5vw 0vh .2vw;
+}
+.content .add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .plus a button{
+    display: none;
+}
+.content .plus a button i{
+    color: black;
+    /* display: none; */
+}
+
+.copyright p a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width:800px) {
+
+    .header{
+        height: 5vh;
+    }
+    .header i{
+        margin-left: 15vw;
+        width: 10vw;
+    }
+    .header h6{
+        width: 70vw;
+    }
+
+    .heading .logo h1{
+        font-size: 2vh;
+    }
+    .heading .logo h3{
+        font-size: 1vh;
+    }
+
+    .heading .navbar a{
+        font-size: 2vh;
+    }
+    .heading .navbar{
+        margin-left: 3vw;
+        margin-bottom: 2vh;
+    }
+    .heading .navbar a:hover{
+        font-size: 2.5vh;
+    }
+
+
+    .your-issue{
+        padding: 1vh 1vw 1vh 1.9vw;
+    }
+    .your-issue h1{
+        font-size: 2vh;
+    }
+
+
+
+    .nation .categories button{
+        margin: 1vh 1vw 1vh 1vw;
+        font-size: 1.5vh;
+        margin: 1vh 1vw 1vh 1vw;
+        padding: 1vh;
+    }
+    
+    .highlights button{
+        font-size: 1.5vh;
+        margin: 1vh 1vw 1vh 1vw;
+        padding: 1vh;
+    }
+    .nation .categories p{
+        margin: 0 0 0 0;
+    }
+
+    /* .time-nd-date{
+        display: flex;
+        flex-direction: column;
+    }
+    .time-nd-date .container{
+        display: flex;
+        flex-direction: row;
+    } */
+    .time-nd-date{
+        display: none;
+    }
+      
+
+
+    .footer{
+        display: block;
+    }
+    .footer h1{
+        font-size: 3vh;
+    }
+    .footer p{
+        font-family: .5vh;
+    }
+    .footer .center h2{
+        font-size: 2vh;
+        margin-top: 5vh;
+    }
+    .footer .right h2{
+        font-size: 2vh;
+    }
+
+
+    .content .plus a button{
+        color: black;
+        display: block;
+    }
+    .copyright{
+        height: 14vh;
+    }
+}

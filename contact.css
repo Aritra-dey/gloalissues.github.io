@@ -1,0 +1,49 @@
+.content{
+    background-color: #dbdbdb;
+    padding: 2vh 4vw 5vh 4vw;
+}
+.content h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5vw;
+}
+.content h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 1vw;
+    margin-top: 5vh;
+}
+
+.content .buttons{
+    padding: 2vh 2vw 2vh 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content button{
+    background-color:transparent;
+    outline: none ;
+    border: rgb(78, 76, 76) 1px solid ;
+    padding: 2vh;
+    margin: 0 1vw 0 1vw;
+    font-size: 2vh;
+    font-family: Corbel;
+    cursor: pointer;
+    margin: 3vh 2vw 3vh 2vw;
+}
+.content button:hover{
+    background-color: grey;
+    color: white;
+}
+.content button i{
+    color: black;
+    padding: .05vh .5vw .05vh .2vw;
+}
+
+
+
+@media only screen and (max-width:800px) {
+    .content .buttons{
+        display: block;
+        justify-content: center;
+    }
+
+}

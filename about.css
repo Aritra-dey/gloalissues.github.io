@@ -1,0 +1,54 @@
+.content h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2vh 2vw 1vh 2vw;
+}
+.content .docs .doc-button{
+    margin: 1vh 1vw 1vh 1vw;
+}
+
+
+
+.content details{
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5vh 1vw 2vh 1vw;
+    font-weight: 500;
+}
+.content h4 b i{
+    color: black;
+    font-weight: 900;
+}
+
+
+
+
+
+.docs h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2vh 3vw 1vh 1vw;
+}
+.docs .p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #dbdbdb;
+    margin: 2vh 2vw 2vh 2vw;
+    padding: 1vh 1vw 1vh 1vw;
+    text-align: center;
+}
+.docs .p h2{
+    margin: 0 0 1vh 1vw;
+}
+
+
+
+
+@media only screen and (max-width:800px) {
+    .content h4{
+        font-size: 1.3vh;
+    }
+     .docs h1{
+        font-size: 2.5vh;
+    }
+    .docs .p p{
+        font-size: 1vh;
+    }
+}

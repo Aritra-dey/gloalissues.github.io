@@ -1,0 +1,124 @@
+.content{
+    background-color: #dbdbdb;
+    padding: 3vh 3vw 3vh 3vw;
+}
+.content h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2vh 2vw 2vh 2vw;
+}
+.content h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10vw;
+}
+.content p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1vh 5vw 1vh 15vw;
+}
+
+.content .article a{
+    color: black;
+    text-decoration: none;
+    margin-left: 5vw;
+    cursor: pointer;
+}
+.content .article a:hover{
+    font-size: 1.9vh;
+    color: black;
+    font-weight: 900;
+}
+.content h5{
+    margin-left: 15vw;
+}
+
+.content button{
+    background-color:transparent;
+    outline: none ;
+    border: rgb(78, 76, 76) 1px solid ;
+    padding: 2vh;
+    margin: 0 1vw 0 1vw;
+    font-size: 2vh;
+    font-family: Corbel;
+    cursor: pointer;
+}
+.content button:hover{
+    background-color: grey;
+    color: white;
+}
+
+
+.content.add a button{
+    background-color:transparent;
+    outline: none ;
+    border: rgb(78, 76, 76) 1px solid ;
+    padding: 2vh;
+    margin: 0 1vw 0 1vw;
+    font-size: 2vh;
+    font-family: Corbel;
+    cursor: pointer;
+}
+.content .add a button i{
+    color: black;
+    padding: 0vh .5vw 0vh .2vw;
+}
+.content .add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content ul li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 19vw;
+    list-style-type: square;
+}
+
+
+
+.note{
+    font-size: 1vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f7f499;
+    height: 10vh;
+    width: 70vw;
+    align-items: center;
+    margin-left: 15vw;
+    border: 1px solid #b3ad00;
+    display: flex;
+}
+
+.note p a button{
+    background-color: whitesmoke;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1vh 1vw 1vh 1vw;
+    font-size: 1vh;
+    border-radius: 1vw;
+}
+.note .fa-exclamation{
+    color: red;
+    font-size: 5vh;
+    margin: 1vh 2vw 1vh 2vw;
+}
+
+
+
+@media only screen and (max-width:800px) {
+    
+    .content p{
+        font-size: 1.3vh;
+    }
+    .content button{
+        font-size: 1.5vh;
+        margin: 1vh 1vw 1vh 1vw;
+        padding: 1vh;
+    }
+
+
+    .note{
+        height: 15vh;
+    }
+    
+    .note p{
+        font-size: 1vh;
+    }
+
+}

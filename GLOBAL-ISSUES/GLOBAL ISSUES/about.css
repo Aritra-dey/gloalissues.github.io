@@ -1,3 +1,7 @@
+@font-face{
+    font-family: 'Segoe UI';
+    src: url('https://github.com/Aritra-dey/globalissues.github.io/tree/main/font') format('truetype');
+}
 .content h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 2vh 2vw 1vh 2vw;

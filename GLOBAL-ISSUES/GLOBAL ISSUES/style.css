@@ -63,11 +63,8 @@ nav{
 
 .nation{
     padding: 5vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Open Sans', Tahoma, Geneva, Verdana, serif;
     background-color: #dbdbdb;
-}
-.nation h2{
-        font-family: 'Open Sans', Tahoma, Geneva, Verdana, serif;
 }
 
 .nation .categories button{

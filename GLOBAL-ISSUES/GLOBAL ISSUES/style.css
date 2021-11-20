@@ -13,7 +13,7 @@ body i{
     height: 3vh;
     padding: 1vh 2vw .2vh 2vw;
     color: #707070;
-    font-family: 'Open Sans', Tahoma, Geneva, Verdana, serif;
+    font-family: 'Verdana', Tahoma, Geneva, Verdana, serif;
     display: flex;
 }
 .header i{
@@ -27,7 +27,7 @@ body i{
     color: white;
     background-color: navy;
     padding: 3vh;
-        font-family: 'Open Sans', Tahoma, Geneva, Verdana, serif;
+       font-family: 'Verdana', Tahoma, Geneva, Verdana, serif;
     width: 100vw;
     display: inline-flex;
 }
